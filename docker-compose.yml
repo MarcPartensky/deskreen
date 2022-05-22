@@ -3,3 +3,6 @@ services:
   deskreen:
     image: marcpartensky/deskreen
     restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./Dockerfile
