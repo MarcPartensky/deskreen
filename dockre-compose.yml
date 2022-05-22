@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  deskreen:
+    image: marcpartensky/deskreen
+    restart: unless-stopped
